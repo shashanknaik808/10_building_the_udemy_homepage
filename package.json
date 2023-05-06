@@ -1,0 +1,24 @@
+{
+  "name": "10_building_the_udemy_homepage",
+  "version": "1.0.0",
+  "description": "Package JSON for my Flexbox & SASS Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashanknaik808/10_building_the_udemy_homepage.git"
+  },
+  "author": "Shashank Naik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashanknaik808/10_building_the_udemy_homepage/issues"
+  },
+  "homepage": "https://github.com/shashanknaik808/10_building_the_udemy_homepage#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0"
+  }
+}
