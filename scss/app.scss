@@ -1,9 +1,6 @@
-$red : blue;
+@import 'variables';
+@import 'mixins';
 
 body {
-    background-color: $red;
-}
-
-h1 {
-    display: flex;
+    font-family: $mainFont;
 }
