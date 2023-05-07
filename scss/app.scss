@@ -1,6 +1,22 @@
 @import 'variables';
 @import 'mixins';
 
+html {
+    @include box-sizing(border-box)
+}
+
+*,
+*:after,
+*:before {
+    @include box-sizing(inherit);
+}
+
 body {
+    @include box-sizing(border-box);
     font-family: $mainFont;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }

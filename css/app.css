@@ -1,9 +1,19 @@
 body {
-  background-color: blue;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.header {
   display: flex;
+  justify-content: space-between;
 }
