@@ -18,6 +18,6 @@ function watchFiles() {
     gulp.watch('index.html')
 }
 
-
+// tasks
 gulp.task('css', css);
 gulp.task('watch', gulp.parallel(watchFiles) )
