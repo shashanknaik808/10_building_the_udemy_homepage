@@ -166,3 +166,76 @@ html {
   background-size: 2.4rem;
   background-image: url(../img/icon3.png);
 }
+
+.course-list {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.course-list .course {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(50% - 1rem);
+  flex: 0 0 calc(50% - 1rem);
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .course-list .course {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(33.3% - 1rem);
+    flex: 0 0 calc(33.3% - 1rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  .course-list .course {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(25% - 1rem);
+    flex: 0 0 calc(25% - 1rem);
+  }
+}
+
+.course-list .course .course-info {
+  padding: 1rem;
+}
+
+.course-list .course .course-info h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.course-list .course .course-info .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.course-list .course .course-info .price .regular {
+  text-decoration: line-through;
+}
+
+.course-list .course .course-info .price .offer {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.course-list .course .course-info .button {
+  background-color: #33C3F0;
+  padding: .5rem 1rem;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
