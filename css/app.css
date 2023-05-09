@@ -107,3 +107,62 @@ html {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.bar {
+  min-height: 5rem;
+  background: #741d51;
+  color: #ffffff;
+  background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+}
+
+.bar .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1.4rem 0;
+}
+
+@media (min-width: 1000px) {
+  .bar .icons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) {
+  .bar .icons .icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+  }
+}
+
+.bar .icons .icon.icon1 {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2.4rem;
+  background-image: url(../img/icon1.png);
+}
+
+.bar .icons .icon.icon2 {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2.4rem;
+  background-image: url(../img/icon2.png);
+}
+
+.bar .icons .icon.icon3 {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2.4rem;
+  background-image: url(../img/icon3.png);
+}

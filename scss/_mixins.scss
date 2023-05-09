@@ -29,3 +29,17 @@
         @content;
     }
 }
+
+// gradient
+@mixin gradient($color1, $color2) {
+    background: linear-gradient(to right, $color1 0%, $color2 100%);
+}
+
+// backgroundimage
+@mixin bg-icon($image) {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.4rem;
+    background-image: url(../img/#{$image}.png);
+}
