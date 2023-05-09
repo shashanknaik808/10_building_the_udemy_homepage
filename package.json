@@ -2,7 +2,7 @@
   "name": "10_building_the_udemy_homepage",
   "version": "1.0.0",
   "description": "Package JSON for my Flexbox & SASS Project",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
